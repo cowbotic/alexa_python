@@ -84,7 +84,7 @@ def speak_like(intent, session):
     else:
         speech="I'm not aware of any good phrase for "+movie_character+", sorry for that"
  
-    re_speech="None of my configs for this skil..."
+    re_speech="None of my configs for this skill..."
 
     return build_complete_response(session_attributes, build_response_internals(card_title, speech, re_speech, end_session))
  
